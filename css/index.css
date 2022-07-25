@@ -1,4 +1,50 @@
 *{
+<<<<<<< HEAD
+    padding:0;
+    margin: 0;
+}
+
+nav{
+    background-color: gray;
+}
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    margin-left: 65%;
+    flex-wrap: wrap;
+}
+li{
+    display: block;
+    width:fit-content;
+    margin:10px;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.btn{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    flex-wrap: wrap;
+}
+button{
+    width:75px;
+    height: 25px;
+    margin-left:10px;
+
+}
+button:hover{
+    color:yellow ;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: Red;
+    font-size: large;
+=======
     margin:0;
     padding:0;
 }
@@ -27,4 +73,5 @@ body{
     height:20%;
     width: 100%;
     background-color: bisque;
+>>>>>>> ae9c4c511cbd92a3f524e6b5dc41a501dd36b919
 }
