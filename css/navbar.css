@@ -29,6 +29,16 @@ a{
     color:white;
 }
 
+.hide{
+    display: none;
+}
+ .show:hover .hide{
+    display: block;
+    background-color: blue;
+ }
+
+
+
 .btn{
     display: flex;
     margin-top: 1%;
