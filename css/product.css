@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin:0;
+ 
+}
+.main
+{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+#nav
+{
+    height: 10%;
+    background-color: aqua;
+}
+#body
+{
+    height: 90%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.items
+{
+    background-color:white;
+    border-radius: 10px;
+   height: 400px;
+   width: 280px; 
+}
