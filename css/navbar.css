@@ -36,13 +36,13 @@ a{
     margin-bottom:1%;
     flex-wrap: wrap;
 }
-button{
+.b_nav{
     width:75px;
     height: 25px;
     margin-left:10px;
 
 }
-button:hover{
+.b_nav:hover{
     color:yellow ;
     font-weight: bold;
     border-radius: 5px;
