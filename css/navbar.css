@@ -44,7 +44,9 @@
 
 #search
 {
-    border: 2.3px solid black;
+    border: 2.3px solid rgb(187, 180, 180);
+    border-radius: 15px;
+    padding: 10px;
     
 }
 
