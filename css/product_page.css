@@ -80,6 +80,13 @@ nav{
     font-size: 20px;
     border-radius: 10px;
 }
+.b1:hover{
+    
+    font-weight: bold;
+    
+    background-color:rgb(255, 107, 132);
+    font-size: larger;
+}
 
 .del
 {
