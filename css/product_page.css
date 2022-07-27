@@ -17,7 +17,7 @@ nav{
 }
 .sec
 {
-    background-color:#81CACF;
+    background-color:#CCD1E4;
 }
 #body
 {
@@ -112,9 +112,11 @@ nav{
 #price
 {
     font-size: 30px;
-    margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 img:hover {
     transform: scale(1.02);
+    overflow: scroll;
     }
