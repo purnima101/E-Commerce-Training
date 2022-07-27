@@ -97,3 +97,85 @@
     animation-duration: 13s;
     animation-iteration-count: infinite;
   }  */
+
+  .pro
+  {
+    height: 400px;
+  }
+  .head
+  {
+    font-size: 60px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .blocks
+  {
+    height: 140px;
+    width: 140px;
+    background-color: darkgoldenrod;
+    border-radius: 100%;
+  }
+
+  .options
+  {
+    margin-bottom: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .blocks
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    /* background-image: url('/images/Mobiles/Samsung/Samsung Galaxy A53/Variant-1/Samsung Galaxy A53-128-6gb.webp');
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: 120px 120px; */
+  }
+
+  #c1
+  {
+    border-radius: 100%;
+  }
+
+.offers1
+{
+    height: 300px;
+
+    overflow: auto;
+  white-space: nowrap;
+}
+
+.o1
+{
+    height: 280px;
+    width: 700px;
+    background-color: aqua;
+    border: 3px solid black;
+
+    display: inline-block;
+  
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#o11
+{
+    background-image: url('/images/o1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#o22
+{
+    width: 300px;
+    background-image: url('/images/o12.png');
+    background-size: 280px 340px;
+    background-repeat: no-repeat;
+}
