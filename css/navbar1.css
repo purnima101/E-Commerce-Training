@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    background: #1b1b1b;
+    background: #3f3b3b;
     
         position: sticky;
         top: 0;
@@ -42,8 +42,8 @@ nav ul{
 
 nav ul li{
     float: left;
-    display: inline-block;
-    background: #1b1b1b;
+    display:inline-block;
+    background: #3f3b3b;
     margin: 0px 5px;
 }
 

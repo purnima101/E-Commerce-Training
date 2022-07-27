@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin: 0;
+    
 }
 #main
 {
@@ -73,6 +74,11 @@
     font-family: 'Dancing Script', cursive;
     color:rgb(6, 6, 6);
     font-size: 50px;;
+}
+
+#hicon
+{
+    color: white;
 }
 
 

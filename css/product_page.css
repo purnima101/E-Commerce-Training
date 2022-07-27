@@ -2,6 +2,7 @@
 {
     padding: 0;
     margin:0;
+    /* background-color: #F1EEE9; */
  
 }
 
@@ -113,3 +114,7 @@ nav{
     font-size: 30px;
     margin: 30px;
 }
+
+img:hover {
+    transform: scale(1.02);
+    }
