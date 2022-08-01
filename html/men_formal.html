@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/men_formal.css">
+    <link rel="stylesheet" href="/css/men_casual.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/navbar1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,8 +16,8 @@
         <nav>
             <div class="logo">🐰ORIGINALS</div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a>
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#"> 🛒Products</a>
                 <ul>
                     <li><a href="#">Mobiles</a>
                     <ul>
@@ -145,15 +145,15 @@
                         </ul></li>
                 </ul>
                 </li>
-                <li><a href="#">Wishlist</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="/html/wishlist.html">💖 Wishlist</a></li>
+                <li><a href="/html/cart.html"> 🛍️ Cart</a></li>
+                <li><a href="/html/profile.html"> 👤 Profile</a></li>
             </ul>
         </nav>
         <div class="btn">
-            <input type="text" placeholder="Search" id="search">
-            <button style="margin-left:70%" id="loginb" class="b_nav">Login</button>
-            <button id="signinb" class="b_nav">Sign Up</button>
+            <input type="text" placeholder="Search" id="search"> 
+            <button style="margin-left:70%" id="loginb" class="b_nav" onclick="login()">Login</button>
+            <button id="signinb" class="b_nav" onclick="signin()">Sign Up</button>
         </div>
 
 
@@ -258,5 +258,15 @@
         
    </div>
 </div>
+
+<script>  function login()
+    {
+        window.location.href = "/html/login.html";
+    }
+    function signin()
+    {
+        window.location.href = "/html/signin.html";
+    }
+</script>
 </body>
 </html>

@@ -1,17 +1,16 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/men_casual_1.css">
     <link rel="stylesheet" href="/css/navbar1.css">
-    
+    <link rel="stylesheet" href="/css/wishlist.css">
+   
+    <title>Wish List</title>
 </head>
-<body> 
-<div id="total">
+<body>
+    <div class="main">
     <nav>
         <div class="logo" style="color:white;">🐰ORIGINALS</div>
         <ul>
@@ -109,7 +108,7 @@
                         <ul class="apparel-men">
                             <li><a href="/html/men_casual.html">Casual</a></li>
                             <li><a href="#">Ethenic</a></li>
-                            <li><a href="#">Formal</a></li>
+                            <li><a href="/html/men_formal.html">Formal</a></li>
                             <li><a href="#">Semi-Formal</a></li>
                         </ul>
                         </li>
@@ -155,99 +154,113 @@
         <button id="signinb" class="b_nav" onclick="signin()">Sign Up</button>
     </div>
 
-    
-<div id="body">
-        <div class="sec" id="left">
-
-            <div class="pic">
-                <img src="/images/Footwear/men/causal/cs1.webp" alt=""  width="100%" height="100%">
-
-            </div>
-            <div class="pic">
-                <img src="/images/Footwear/men/causal/cs2.webp" alt="" width="100%" height="100%">
-            </div>
-            <div class="pic">
-                <img src="/images/Footwear/men/causal/cs3.webp" alt="" width="100%" height="100%">
+    </div>
+    <div class="container">
+        <div class="top">
+            <div class="Heading">
+                <img src="https://static.thenounproject.com/png/3551002-200.png" alt="" >
+                 <b>My Wishlist</b>
 
             </div>
-            <div class="pic">
-                <img src="/images/Footwear/men/causal/cs2.webp" alt="" width="100%" height="100%">
-            </div>
+            <div class="items">
+                <div class="menu1"><strong>Product Name</strong> </div>
+                <div class="menu1"><strong>Unit Price</strong></div>
+                <div class="menu1"><strong>Stock Status</strong> </div>
+                <div class="menu1"> 
+                    <strong>Add to Cart/Delete</strong></div>
+               
 
+            </div>
+          
         </div>
-<div class="sec" id="right">
+        <hr>
+
+        <div class="bottom">
+
+            <div class="item1">
+
+                <div class="image1">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20220711/A0ce/62cc3810aeb26921af6f9ab5/-473Wx593H-464623262-grey-MODEL.jpg" alt="" width="100%" height="60%">
+                    
+
+                </div>
+                <div class="price">
+                    $10
+                </div>
+                <div class="stock">
+                    In stock
+                </div>
+                <div class="ad">
+                    <button class="btnadd">ADD</button>
+                    <br>
+                  
+                    <button class="btndelete">DELETE</button>
+                </div>
+                
 
 
-<h2 class="t1">Nike</h2>
-<h3 class="t1">Sneakers</h3>
-<p><h4 class="t1">4.2⭐</h4></p>
-<br>
-<hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:gray">
+            </div>
+            <hr>
+            <div class="item2">
+                <div class="image2">
+                    <img src="https://images.samsung.com/is/image/samsung/assets/in/pfs/202205_update/Product-card-FT12_Galaxy-A53_MO.jpg?$FB_TYPE_J_F_MO_JPG$" alt="" width="60%" height="50%">
+                    
 
-<p id="price" class="t1"><h2>Rs 1400</h2></p>
-<br> <br>
-<p id="details"><h2>PRODUCT DETAILS</h2> 
-    Black checked opaque Casual shirt ,has a spread collar, button placket, 1 patch pocket, long roll-up sleeves, curved hem
-    
-    Size & Fit
-    Regular Fit
-    The model (height 6') is wearing a size 40
-    
-    Material & Care
-    100% Cotton
-    Machine-wash
-    
-    </p>
-    <br>
-<p id="select"><h3>Select Size</h3></p>
-<div class="size">
-    <div class="options">26</div>
-    <div class="options">28</div>
-    <div class="options">30</div>
-    <div class="options">32</div>
-    <div class="options">34</div>
-</div>
-<div class="add">
-    <button id="bag" class="b1"><img src="/images/shopping-bag.png" alt="" height="18px" width="18px">  Add to bag</button>
-    <button id="wish" class="b1"> <img src="/images/like.png" alt="" height="18px" width="18px"> wish List</button>
-</div>
-<hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:gray">
+                </div>
+                <div class="price">
+                    $1000
+                </div>
+                <div class="stock">
+                    In stock
+                </div>
+                <div class="ad">
+                    <!-- <button type="button" >Add</button>
+                    <br>
+                    <button type="button" >Add</button> -->
+                    <button class="btnadd">ADD</button>
+                    <br>
+                    <button class="btndelete">DELETE</button>
+                </div>
+            </div>
+            <div class="item3"></div>
 
-<div class="delivery">
+            <!-- <div class="item1">
+                <div class="menu2">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20220711/A0ce/62cc3810aeb26921af6f9ab5/-473Wx593H-464623262-grey-MODEL.jpg" alt="" width="120%" height="60%">
 
-    <p class="del"><h2>Check Delivery Option</h2></p>
-    <input type="text" id="pin">
-    <button id="check" class="b1">Check</button>
+                </div>
+                
+                    
+                <div class="menu2">$9</div>
+                <div class="menu2">In Stock</div>
+                <div class="menu2" > Add to cart</div>
 
+            </div>
+            <hr>
+            <div class="item2">
+                <div class="menu3">
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2202/gallery/in-galaxy-s22-plus-s906-412931-sm-s906ezwdinu-thumb-530963903?$264_264_PNG$" alt="" width="110%"
+                    height="55%">
+                </div>
+                <div class="menu3">$900</div>
+                <div class="menu3">In Stock</div>
+                <div class="menu3">Added to cart</div>
 
-    <p id="desc">100% Original Products <br>
-        Pay on delivery might be available <br>
-        Easy 30 days returns and exchanges <br>
-        Try & Buy might be available</p>
-        <br>
-    <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:gray">
+            </div>
+            <hr>
+            <div class="item3">
+                <div class="menu4"></div>
+                <div class="menu4"></div>
+                <div class="menu4"></div>
+                <div class="menu4"></div>
 
-    
-</div>
-
-
-
-
-
-
+            </div> -->
 
 
-</div>
-
-</div>
-
-<div id="footer">
-
-   
-</div>
-
-</div>
-<script> 
+            
+        </div>
+    </div>
+    <script> 
     function login()
         {
             window.location.href = "/html/login.html";
@@ -257,5 +270,4 @@
             window.location.href = "/html/signin.html";
         }</script>
 </body>
-
 </html>
